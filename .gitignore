@@ -1,0 +1,21 @@
+# Godot editor / local cache
+.godot/
+**/.godot/
+*.tmp
+
+# Godot Engine binaries & installers
+Godot-4.7.2/
+Godot_v4.7.2-stable_win64.exe.zip
+*.exe
+
+# Raw source ZIP archives & asset packs
+*.zip
+New Assets/
+Kaldran City/*/
+!Kaldran City/Hillview 1km/
+!Kaldran City/Playable/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini

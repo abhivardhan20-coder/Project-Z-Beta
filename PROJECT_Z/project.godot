@@ -1,0 +1,21 @@
+; Engine configuration file.
+; Edit this file through the Godot Project Settings UI.
+
+config_version=5
+
+[application]
+
+config/name="PROJECT_Z"
+run/main_scene="res://scenes/world/neighborhood.tscn"
+config/features=PackedStringArray("4.7", "Mobile")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="mobile"
+rendering_device/driver.windows="d3d12"
