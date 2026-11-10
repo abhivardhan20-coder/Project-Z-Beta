@@ -1,0 +1,1065 @@
+[gd_scene load_steps=105 format=3]
+
+
+[sub_resource type="BoxShape3D" id="1_door"]
+size = Vector3(1.17, 2.29, 0.055)
+[sub_resource type="CapsuleShape3D" id="2_capsule"]
+radius = 0.28
+height = 1.75
+
+[sub_resource type="BoxShape3D" id="3_box"]
+size = Vector3(4.00000, 0.25000, 13.80000)
+
+[sub_resource type="BoxShape3D" id="4_box"]
+size = Vector3(4.00000, 0.25000, 7.82000)
+
+[sub_resource type="BoxShape3D" id="5_box"]
+size = Vector3(4.00000, 0.25000, 7.82000)
+
+[sub_resource type="BoxShape3D" id="6_box"]
+size = Vector3(4.00000, 0.25000, 13.80000)
+
+[sub_resource type="BoxShape3D" id="7_box"]
+size = Vector3(0.17000, 3.20000, 7.70000)
+
+[sub_resource type="BoxShape3D" id="8_box"]
+size = Vector3(0.17000, 3.20000, 1.65000)
+
+[sub_resource type="BoxShape3D" id="9_box"]
+size = Vector3(0.17000, 3.20000, 2.25000)
+
+[sub_resource type="BoxShape3D" id="10_box"]
+size = Vector3(0.17000, 1.12000, 1.30000)
+
+[sub_resource type="BoxShape3D" id="11_box"]
+size = Vector3(0.17000, 0.62000, 1.30000)
+
+[sub_resource type="BoxShape3D" id="12_box"]
+size = Vector3(0.17000, 3.20000, 7.70000)
+
+[sub_resource type="BoxShape3D" id="13_box"]
+size = Vector3(0.17000, 3.20000, 5.20000)
+
+[sub_resource type="BoxShape3D" id="14_box"]
+size = Vector3(4.00000, 3.20000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="15_box"]
+size = Vector3(0.26000, 0.92000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="16_box"]
+size = Vector3(0.26000, 1.46000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="17_box"]
+size = Vector3(0.26000, 0.17000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="18_box"]
+size = Vector3(0.26000, 0.65000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="19_box"]
+size = Vector3(0.82000, 0.92000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="20_box"]
+size = Vector3(0.82000, 0.65000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="21_box"]
+size = Vector3(0.25000, 0.92000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="22_box"]
+size = Vector3(0.25000, 1.46000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="23_box"]
+size = Vector3(0.25000, 0.17000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="24_box"]
+size = Vector3(0.25000, 0.65000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="25_box"]
+size = Vector3(1.34000, 0.17000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="26_box"]
+size = Vector3(1.34000, 0.65000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="27_box"]
+size = Vector3(0.25000, 0.92000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="28_box"]
+size = Vector3(0.25000, 1.46000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="29_box"]
+size = Vector3(0.25000, 0.17000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="30_box"]
+size = Vector3(0.25000, 0.65000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="31_box"]
+size = Vector3(0.82000, 0.92000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="32_box"]
+size = Vector3(0.82000, 0.65000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="33_box"]
+size = Vector3(0.26000, 0.92000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="34_box"]
+size = Vector3(0.26000, 1.46000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="35_box"]
+size = Vector3(0.26000, 0.17000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="36_box"]
+size = Vector3(0.26000, 0.65000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="37_box"]
+size = Vector3(0.17000, 3.20000, 2.65000)
+
+[sub_resource type="BoxShape3D" id="38_box"]
+size = Vector3(0.17000, 3.20000, 4.75000)
+
+[sub_resource type="BoxShape3D" id="39_box"]
+size = Vector3(0.17000, 1.00000, 1.20000)
+
+[sub_resource type="BoxShape3D" id="40_box"]
+size = Vector3(0.17000, 0.92000, 1.20000)
+
+[sub_resource type="BoxShape3D" id="41_box"]
+size = Vector3(0.17000, 3.20000, 1.65000)
+
+[sub_resource type="BoxShape3D" id="42_box"]
+size = Vector3(0.17000, 3.20000, 2.25000)
+
+[sub_resource type="BoxShape3D" id="43_box"]
+size = Vector3(0.17000, 1.12000, 1.30000)
+
+[sub_resource type="BoxShape3D" id="44_box"]
+size = Vector3(0.17000, 0.62000, 1.30000)
+
+[sub_resource type="BoxShape3D" id="45_box"]
+size = Vector3(0.17000, 3.20000, 7.70000)
+
+[sub_resource type="BoxShape3D" id="46_box"]
+size = Vector3(0.17000, 3.20000, 5.20000)
+
+[sub_resource type="BoxShape3D" id="47_box"]
+size = Vector3(4.00000, 3.20000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="48_box"]
+size = Vector3(0.45000, 0.82000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="49_box"]
+size = Vector3(0.45000, 1.78000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="50_box"]
+size = Vector3(0.45000, 0.60000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="51_box"]
+size = Vector3(3.10000, 0.82000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="52_box"]
+size = Vector3(3.10000, 0.60000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="53_box"]
+size = Vector3(0.45000, 0.82000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="54_box"]
+size = Vector3(0.45000, 1.78000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="55_box"]
+size = Vector3(0.45000, 0.60000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="56_box"]
+size = Vector3(0.17000, 3.20000, 2.65000)
+
+[sub_resource type="BoxShape3D" id="57_box"]
+size = Vector3(0.17000, 3.20000, 4.75000)
+
+[sub_resource type="BoxShape3D" id="58_box"]
+size = Vector3(0.17000, 1.00000, 1.20000)
+
+[sub_resource type="BoxShape3D" id="59_box"]
+size = Vector3(0.17000, 0.92000, 1.20000)
+
+[sub_resource type="BoxShape3D" id="60_box"]
+size = Vector3(0.17000, 3.20000, 1.65000)
+
+[sub_resource type="BoxShape3D" id="61_box"]
+size = Vector3(0.17000, 3.20000, 2.25000)
+
+[sub_resource type="BoxShape3D" id="62_box"]
+size = Vector3(0.17000, 1.12000, 1.30000)
+
+[sub_resource type="BoxShape3D" id="63_box"]
+size = Vector3(0.17000, 0.62000, 1.30000)
+
+[sub_resource type="BoxShape3D" id="64_box"]
+size = Vector3(0.17000, 3.20000, 7.70000)
+
+[sub_resource type="BoxShape3D" id="65_box"]
+size = Vector3(0.17000, 3.20000, 5.20000)
+
+[sub_resource type="BoxShape3D" id="66_box"]
+size = Vector3(4.00000, 3.20000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="67_box"]
+size = Vector3(0.45000, 0.82000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="68_box"]
+size = Vector3(0.45000, 1.78000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="69_box"]
+size = Vector3(0.45000, 0.60000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="70_box"]
+size = Vector3(3.10000, 0.82000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="71_box"]
+size = Vector3(3.10000, 0.60000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="72_box"]
+size = Vector3(0.45000, 0.82000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="73_box"]
+size = Vector3(0.45000, 1.78000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="74_box"]
+size = Vector3(0.45000, 0.60000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="75_box"]
+size = Vector3(2.44000, 3.20000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="76_box"]
+size = Vector3(0.32000, 3.20000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="77_box"]
+size = Vector3(1.24000, 0.86000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="78_box"]
+size = Vector3(2.44000, 3.20000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="79_box"]
+size = Vector3(0.32000, 3.20000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="80_box"]
+size = Vector3(1.24000, 0.86000, 0.17000)
+
+[sub_resource type="BoxShape3D" id="81_box"]
+size = Vector3(2.54000, 3.05000, 0.11000)
+
+[sub_resource type="BoxShape3D" id="82_box"]
+size = Vector3(1.12000, 0.87000, 0.11000)
+
+[sub_resource type="BoxShape3D" id="83_box"]
+size = Vector3(0.10000, 3.05000, 0.53000)
+
+[sub_resource type="BoxShape3D" id="84_box"]
+size = Vector3(0.10000, 3.05000, 0.54000)
+
+[sub_resource type="BoxShape3D" id="85_box"]
+size = Vector3(0.10000, 3.05000, 0.29000)
+
+[sub_resource type="BoxShape3D" id="86_box"]
+size = Vector3(0.10000, 3.05000, 0.43000)
+
+[sub_resource type="BoxShape3D" id="87_box"]
+size = Vector3(0.10000, 0.87000, 0.98000)
+
+[sub_resource type="BoxShape3D" id="88_box"]
+size = Vector3(0.10000, 0.87000, 0.97000)
+
+[sub_resource type="BoxShape3D" id="89_box"]
+size = Vector3(2.41000, 3.05000, 0.10000)
+
+[sub_resource type="BoxShape3D" id="90_box"]
+size = Vector3(2.41000, 3.05000, 0.10000)
+
+[sub_resource type="BoxShape3D" id="91_box"]
+size = Vector3(0.85000, 0.98000, 1.78000)
+
+[sub_resource type="BoxShape3D" id="92_box"]
+size = Vector3(0.87000, 0.46000, 0.58000)
+
+[sub_resource type="BoxShape3D" id="93_box"]
+size = Vector3(0.45000, 0.60000, 1.35000)
+
+[sub_resource type="BoxShape3D" id="94_box"]
+size = Vector3(1.66000, 0.92000, 0.59000)
+
+[sub_resource type="BoxShape3D" id="95_box"]
+size = Vector3(0.62000, 1.76000, 0.62000)
+
+[sub_resource type="BoxShape3D" id="96_box"]
+size = Vector3(1.47000, 0.74000, 1.85000)
+
+[sub_resource type="BoxShape3D" id="97_box"]
+size = Vector3(0.70000, 2.24000, 0.54000)
+
+[sub_resource type="BoxShape3D" id="98_box"]
+size = Vector3(0.88000, 0.16000, 0.74000)
+
+[sub_resource type="BoxShape3D" id="99_box"]
+size = Vector3(0.45000, 0.60000, 0.61000)
+
+[sub_resource type="BoxShape3D" id="100_box"]
+size = Vector3(0.57000, 0.78000, 0.50000)
+
+[sub_resource type="BoxShape3D" id="101_box"]
+size = Vector3(2.54000, 3.05000, 0.11000)
+
+[sub_resource type="BoxShape3D" id="102_box"]
+size = Vector3(1.12000, 0.87000, 0.11000)
+
+[sub_resource type="BoxShape3D" id="103_box"]
+size = Vector3(0.10000, 3.05000, 0.53000)
+
+[sub_resource type="BoxShape3D" id="104_box"]
+size = Vector3(0.10000, 3.05000, 0.54000)
+
+[sub_resource type="BoxShape3D" id="105_box"]
+size = Vector3(0.10000, 3.05000, 0.29000)
+
+[sub_resource type="BoxShape3D" id="106_box"]
+size = Vector3(0.10000, 3.05000, 0.43000)
+
+[sub_resource type="BoxShape3D" id="107_box"]
+size = Vector3(0.10000, 0.87000, 0.98000)
+
+[sub_resource type="BoxShape3D" id="108_box"]
+size = Vector3(0.10000, 0.87000, 0.97000)
+
+[sub_resource type="BoxShape3D" id="109_box"]
+size = Vector3(2.41000, 3.05000, 0.10000)
+
+[sub_resource type="BoxShape3D" id="110_box"]
+size = Vector3(2.41000, 3.05000, 0.10000)
+
+[sub_resource type="BoxShape3D" id="111_box"]
+size = Vector3(0.85000, 0.98000, 1.78000)
+
+[sub_resource type="BoxShape3D" id="112_box"]
+size = Vector3(0.87000, 0.46000, 0.58000)
+
+[sub_resource type="BoxShape3D" id="113_box"]
+size = Vector3(0.45000, 0.60000, 1.35000)
+
+[sub_resource type="BoxShape3D" id="114_box"]
+size = Vector3(1.66000, 0.92000, 0.59000)
+
+[sub_resource type="BoxShape3D" id="115_box"]
+size = Vector3(0.62000, 1.76000, 0.62000)
+
+[sub_resource type="BoxShape3D" id="116_box"]
+size = Vector3(1.47000, 0.74000, 1.85000)
+
+[sub_resource type="BoxShape3D" id="117_box"]
+size = Vector3(0.70000, 2.24000, 0.54000)
+
+[sub_resource type="BoxShape3D" id="118_box"]
+size = Vector3(0.88000, 0.16000, 0.74000)
+
+[sub_resource type="BoxShape3D" id="119_box"]
+size = Vector3(0.45000, 0.60000, 0.61000)
+
+[sub_resource type="BoxShape3D" id="120_box"]
+size = Vector3(0.57000, 0.78000, 0.50000)
+
+[sub_resource type="BoxShape3D" id="121_box"]
+size = Vector3(1.12000, 0.16000, 3.22490)
+
+[sub_resource type="BoxShape3D" id="122_box"]
+size = Vector3(1.12000, 0.16000, 3.22490)
+
+[sub_resource type="BoxShape3D" id="123_box"]
+size = Vector3(3.88000, 0.18000, 1.58000)
+
+[sub_resource type="BoxShape3D" id="124_box"]
+size = Vector3(3.88000, 0.18000, 0.84000)
+
+[sub_resource type="BoxShape3D" id="125_box"]
+size = Vector3(1.12000, 0.16000, 3.22490)
+
+[sub_resource type="BoxShape3D" id="126_box"]
+size = Vector3(1.12000, 0.16000, 3.22490)
+
+[sub_resource type="BoxShape3D" id="127_box"]
+size = Vector3(3.88000, 0.18000, 1.58000)
+
+[sub_resource type="BoxShape3D" id="128_box"]
+size = Vector3(3.88000, 0.18000, 0.84000)
+
+[sub_resource type="BoxShape3D" id="129_box"]
+size = Vector3(4.00000, 0.07000, 2.50000)
+
+[node name="Apartment_Walk_Test" type="Node3D"]
+
+[node name="VIS_Ground_Lobby" parent="." type="Node3D"]
+
+[node name="VIS_Upper_Storey_L1" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 3.20000, 0.00000)
+
+[node name="VIS_Upper_Storey_L2" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 6.40000, 0.00000)
+
+[node name="VIS_Furnished_Unit_L1" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 3.20000, 0.00000)
+
+[node name="VIS_Furnished_Unit_L2" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 6.40000, 0.00000)
+
+[node name="VIS_Unit_Ceiling_L1" parent="." type="Node3D"]
+position = Vector3(0, 3.2, 0)
+
+[node name="VIS_Unit_Ceiling_L2" parent="." type="Node3D"]
+position = Vector3(0, 6.4, 0)
+
+[node name="VIS_Balcony_L1" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 3.20000, 0.00000)
+
+[node name="VIS_Balcony_L2" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 6.40000, 0.00000)
+
+[node name="VIS_Roof_Parapet" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 9.60000, 0.00000)
+
+[node name="VIS_Entrance_Paving" parent="." type="Node3D"]
+
+[node name="VIS_Ground_Stair_Shaft" parent="." type="Node3D"]
+
+[node name="VIS_Fire_Door_Frame_Ground_West" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.00000, 0.00000, 8.17000)
+
+[node name="VIS_Fire_Door_Frame_Floor1_East" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.00000, 3.20000, 8.17000)
+
+[node name="VIS_LowerFlight_L0" parent="." type="Node3D"]
+
+[node name="VIS_ReturnFlight_L0" parent="." type="Node3D"]
+
+[node name="VIS_HalfLanding_L0" parent="." type="Node3D"]
+
+[node name="VIS_LevelLanding_L1" parent="." type="Node3D"]
+
+[node name="VIS_Stair_Guard_L0" parent="." type="Node3D"]
+
+[node name="VIS_LowerFlight_L1" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 3.20000, 0.00000)
+
+[node name="VIS_ReturnFlight_L1" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 3.20000, 0.00000)
+
+[node name="VIS_HalfLanding_L1" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 3.20000, 0.00000)
+
+[node name="VIS_LevelLanding_L2" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 3.20000, 0.00000)
+
+[node name="VIS_Stair_Guard_L1" parent="." type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00000, 3.20000, 0.00000)
+
+[node name="COL_Structure" type="StaticBody3D" parent="."]
+
+[node name="COL_Ground_Floor" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("3_box")
+position = Vector3(0.00000, -0.12500, 6.90000)
+
+[node name="COL_Upper_Floor_1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("4_box")
+position = Vector3(0.00000, 3.07500, 3.91000)
+
+[node name="COL_Upper_Floor_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("5_box")
+position = Vector3(0.00000, 6.27500, 3.91000)
+
+[node name="COL_Roof" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("6_box")
+position = Vector3(0.00000, 9.47500, 6.90000)
+
+[node name="COL_Side_West_L0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("7_box")
+position = Vector3(-2.00000, 1.60000, 3.85000)
+
+[node name="COL_StairSide_West_L0_9.425" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("8_box")
+position = Vector3(-2.00000, 1.60000, 9.42500)
+
+[node name="COL_StairSide_West_L0_12.675" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("9_box")
+position = Vector3(-2.00000, 1.60000, 12.67500)
+
+[node name="COL_StairWindowBelow_L0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("10_box")
+position = Vector3(-2.00000, 0.56000, 10.90000)
+
+[node name="COL_StairWindowAbove_L0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("11_box")
+position = Vector3(-2.00000, 2.89000, 10.90000)
+
+[node name="COL_Side_East_L0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("12_box")
+position = Vector3(2.00000, 1.60000, 3.85000)
+
+[node name="COL_StairSide_East_L0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("13_box")
+position = Vector3(2.00000, 1.60000, 11.20000)
+
+[node name="COL_BackWall_L0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("14_box")
+position = Vector3(0.00000, 1.60000, 13.80000)
+
+[node name="COL_Facade_0_0_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("15_box")
+position = Vector3(-1.87000, 0.46000, 0.00000)
+
+[node name="COL_Facade_0_0_1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("16_box")
+position = Vector3(-1.87000, 1.65000, 0.00000)
+
+[node name="COL_Facade_0_0_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("17_box")
+position = Vector3(-1.87000, 2.46500, 0.00000)
+
+[node name="COL_Facade_0_0_3" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("18_box")
+position = Vector3(-1.87000, 2.87500, 0.00000)
+
+[node name="COL_Facade_0_1_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("19_box")
+position = Vector3(-1.33000, 0.46000, 0.00000)
+
+[node name="COL_Facade_0_1_3" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("20_box")
+position = Vector3(-1.33000, 2.87500, 0.00000)
+
+[node name="COL_Facade_0_2_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("21_box")
+position = Vector3(-0.79500, 0.46000, 0.00000)
+
+[node name="COL_Facade_0_2_1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("22_box")
+position = Vector3(-0.79500, 1.65000, 0.00000)
+
+[node name="COL_Facade_0_2_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("23_box")
+position = Vector3(-0.79500, 2.46500, 0.00000)
+
+[node name="COL_Facade_0_2_3" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("24_box")
+position = Vector3(-0.79500, 2.87500, 0.00000)
+
+[node name="COL_Facade_0_3_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("25_box")
+position = Vector3(0.00000, 2.46500, 0.00000)
+
+[node name="COL_Facade_0_3_3" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("26_box")
+position = Vector3(0.00000, 2.87500, 0.00000)
+
+[node name="COL_Facade_0_4_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("27_box")
+position = Vector3(0.79500, 0.46000, 0.00000)
+
+[node name="COL_Facade_0_4_1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("28_box")
+position = Vector3(0.79500, 1.65000, 0.00000)
+
+[node name="COL_Facade_0_4_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("29_box")
+position = Vector3(0.79500, 2.46500, 0.00000)
+
+[node name="COL_Facade_0_4_3" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("30_box")
+position = Vector3(0.79500, 2.87500, 0.00000)
+
+[node name="COL_Facade_0_5_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("31_box")
+position = Vector3(1.33000, 0.46000, 0.00000)
+
+[node name="COL_Facade_0_5_3" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("32_box")
+position = Vector3(1.33000, 2.87500, 0.00000)
+
+[node name="COL_Facade_0_6_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("33_box")
+position = Vector3(1.87000, 0.46000, 0.00000)
+
+[node name="COL_Facade_0_6_1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("34_box")
+position = Vector3(1.87000, 1.65000, 0.00000)
+
+[node name="COL_Facade_0_6_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("35_box")
+position = Vector3(1.87000, 2.46500, 0.00000)
+
+[node name="COL_Facade_0_6_3" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("36_box")
+position = Vector3(1.87000, 2.87500, 0.00000)
+
+[node name="COL_Side_West_L1_1.325" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("37_box")
+position = Vector3(-2.00000, 4.80000, 1.32500)
+
+[node name="COL_Side_West_L1_6.225" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("38_box")
+position = Vector3(-2.00000, 4.80000, 6.22500)
+
+[node name="COL_SideWindowBelow_L1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("39_box")
+position = Vector3(-2.00000, 3.70000, 3.25000)
+
+[node name="COL_SideWindowAbove_L1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("40_box")
+position = Vector3(-2.00000, 5.94000, 3.25000)
+
+[node name="COL_StairSide_West_L1_9.425" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("41_box")
+position = Vector3(-2.00000, 4.80000, 9.42500)
+
+[node name="COL_StairSide_West_L1_12.675" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("42_box")
+position = Vector3(-2.00000, 4.80000, 12.67500)
+
+[node name="COL_StairWindowBelow_L1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("43_box")
+position = Vector3(-2.00000, 3.76000, 10.90000)
+
+[node name="COL_StairWindowAbove_L1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("44_box")
+position = Vector3(-2.00000, 6.09000, 10.90000)
+
+[node name="COL_Side_East_L1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("45_box")
+position = Vector3(2.00000, 4.80000, 3.85000)
+
+[node name="COL_StairSide_East_L1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("46_box")
+position = Vector3(2.00000, 4.80000, 11.20000)
+
+[node name="COL_BackWall_L1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("47_box")
+position = Vector3(0.00000, 4.80000, 13.80000)
+
+[node name="COL_Facade_1_0_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("48_box")
+position = Vector3(-1.77500, 3.61000, 0.00000)
+
+[node name="COL_Facade_1_0_1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("49_box")
+position = Vector3(-1.77500, 4.91000, 0.00000)
+
+[node name="COL_Facade_1_0_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("50_box")
+position = Vector3(-1.77500, 6.10000, 0.00000)
+
+[node name="COL_Facade_1_1_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("51_box")
+position = Vector3(0.00000, 3.61000, 0.00000)
+
+[node name="COL_Facade_1_1_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("52_box")
+position = Vector3(0.00000, 6.10000, 0.00000)
+
+[node name="COL_Facade_1_2_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("53_box")
+position = Vector3(1.77500, 3.61000, 0.00000)
+
+[node name="COL_Facade_1_2_1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("54_box")
+position = Vector3(1.77500, 4.91000, 0.00000)
+
+[node name="COL_Facade_1_2_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("55_box")
+position = Vector3(1.77500, 6.10000, 0.00000)
+
+[node name="COL_Side_West_L2_1.325" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("56_box")
+position = Vector3(-2.00000, 8.00000, 1.32500)
+
+[node name="COL_Side_West_L2_6.225" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("57_box")
+position = Vector3(-2.00000, 8.00000, 6.22500)
+
+[node name="COL_SideWindowBelow_L2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("58_box")
+position = Vector3(-2.00000, 6.90000, 3.25000)
+
+[node name="COL_SideWindowAbove_L2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("59_box")
+position = Vector3(-2.00000, 9.14000, 3.25000)
+
+[node name="COL_StairSide_West_L2_9.425" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("60_box")
+position = Vector3(-2.00000, 8.00000, 9.42500)
+
+[node name="COL_StairSide_West_L2_12.675" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("61_box")
+position = Vector3(-2.00000, 8.00000, 12.67500)
+
+[node name="COL_StairWindowBelow_L2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("62_box")
+position = Vector3(-2.00000, 6.96000, 10.90000)
+
+[node name="COL_StairWindowAbove_L2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("63_box")
+position = Vector3(-2.00000, 9.29000, 10.90000)
+
+[node name="COL_Side_East_L2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("64_box")
+position = Vector3(2.00000, 8.00000, 3.85000)
+
+[node name="COL_StairSide_East_L2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("65_box")
+position = Vector3(2.00000, 8.00000, 11.20000)
+
+[node name="COL_BackWall_L2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("66_box")
+position = Vector3(0.00000, 8.00000, 13.80000)
+
+[node name="COL_Facade_2_0_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("67_box")
+position = Vector3(-1.77500, 6.81000, 0.00000)
+
+[node name="COL_Facade_2_0_1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("68_box")
+position = Vector3(-1.77500, 8.11000, 0.00000)
+
+[node name="COL_Facade_2_0_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("69_box")
+position = Vector3(-1.77500, 9.30000, 0.00000)
+
+[node name="COL_Facade_2_1_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("70_box")
+position = Vector3(0.00000, 6.81000, 0.00000)
+
+[node name="COL_Facade_2_1_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("71_box")
+position = Vector3(0.00000, 9.30000, 0.00000)
+
+[node name="COL_Facade_2_2_0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("72_box")
+position = Vector3(1.77500, 6.81000, 0.00000)
+
+[node name="COL_Facade_2_2_1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("73_box")
+position = Vector3(1.77500, 8.11000, 0.00000)
+
+[node name="COL_Facade_2_2_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("74_box")
+position = Vector3(1.77500, 9.30000, 0.00000)
+
+[node name="COL_UnitWallSide_1_-0.78" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("75_box")
+position = Vector3(-0.78000, 4.80000, 7.46000)
+
+[node name="COL_UnitWallSide_1_1.84" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("76_box")
+position = Vector3(1.84000, 4.80000, 7.46000)
+
+[node name="COL_UnitDoorHeader_1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("77_box")
+position = Vector3(1.06000, 5.97000, 7.46000)
+
+[node name="COL_UnitWallSide_2_-0.78" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("78_box")
+position = Vector3(-0.78000, 8.00000, 7.46000)
+
+[node name="COL_UnitWallSide_2_1.84" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("79_box")
+position = Vector3(1.84000, 8.00000, 7.46000)
+
+[node name="COL_UnitDoorHeader_2" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("80_box")
+position = Vector3(1.06000, 9.17000, 7.46000)
+
+[node name="COL_Furnished_L1_LivingPartition" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("81_box")
+position = Vector3(-0.57000, 4.72500, 3.44000)
+
+[node name="COL_Furnished_L1_LivingDoorHeader" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("82_box")
+position = Vector3(1.26000, 5.81500, 3.44000)
+
+[node name="COL_Furnished_L1_BedroomNorth" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("83_box")
+position = Vector3(0.57000, 4.72500, 3.71500)
+
+[node name="COL_Furnished_L1_BedroomSouth" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("84_box")
+position = Vector3(0.57000, 4.72500, 5.23000)
+
+[node name="COL_Furnished_L1_BathNorth" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("85_box")
+position = Vector3(0.57000, 4.72500, 5.65500)
+
+[node name="COL_Furnished_L1_BathSouth" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("86_box")
+position = Vector3(0.57000, 4.72500, 6.98500)
+
+[node name="COL_Furnished_L1_BedroomHeader" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("87_box")
+position = Vector3(0.57000, 5.81000, 4.47000)
+
+[node name="COL_Furnished_L1_BathroomHeader" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("88_box")
+position = Vector3(0.57000, 5.81000, 6.28500)
+
+[node name="COL_Furnished_L1_BathFrontWall" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("89_box")
+position = Vector3(-0.63500, 4.72500, 5.51000)
+
+[node name="COL_Furnished_L1_BathRearWall" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("90_box")
+position = Vector3(-0.63500, 4.72500, 7.20000)
+
+[node name="COL_Furnished_L1_Sofa" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("91_box")
+position = Vector3(-1.31000, 3.69000, 1.45000)
+
+[node name="COL_Furnished_L1_CoffeeTable" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("92_box")
+position = Vector3(-0.33000, 3.43000, 1.47000)
+
+[node name="COL_Furnished_L1_TVConsole" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("93_box")
+position = Vector3(1.57000, 3.50000, 1.37000)
+
+[node name="COL_Furnished_L1_Kitchen" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("94_box")
+position = Vector3(-0.85000, 3.66000, 3.10000)
+
+[node name="COL_Furnished_L1_Fridge" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("95_box")
+position = Vector3(0.19000, 4.08000, 3.08000)
+
+[node name="COL_Furnished_L1_Bed" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("96_box")
+position = Vector3(-1.09000, 3.57000, 4.47000)
+
+[node name="COL_Furnished_L1_Wardrobe" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("97_box")
+position = Vector3(0.10000, 4.32000, 3.78000)
+
+[node name="COL_Furnished_L1_Shower" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("98_box")
+position = Vector3(-1.32000, 3.28000, 6.80000)
+
+[node name="COL_Furnished_L1_Toilet" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("99_box")
+position = Vector3(-1.20000, 3.50000, 5.88000)
+
+[node name="COL_Furnished_L1_Vanity" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("100_box")
+position = Vector3(-0.13000, 3.59000, 6.93000)
+
+[node name="COL_Furnished_L2_LivingPartition" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("101_box")
+position = Vector3(-0.57000, 7.92500, 3.44000)
+
+[node name="COL_Furnished_L2_LivingDoorHeader" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("102_box")
+position = Vector3(1.26000, 9.01500, 3.44000)
+
+[node name="COL_Furnished_L2_BedroomNorth" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("103_box")
+position = Vector3(0.57000, 7.92500, 3.71500)
+
+[node name="COL_Furnished_L2_BedroomSouth" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("104_box")
+position = Vector3(0.57000, 7.92500, 5.23000)
+
+[node name="COL_Furnished_L2_BathNorth" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("105_box")
+position = Vector3(0.57000, 7.92500, 5.65500)
+
+[node name="COL_Furnished_L2_BathSouth" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("106_box")
+position = Vector3(0.57000, 7.92500, 6.98500)
+
+[node name="COL_Furnished_L2_BedroomHeader" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("107_box")
+position = Vector3(0.57000, 9.01000, 4.47000)
+
+[node name="COL_Furnished_L2_BathroomHeader" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("108_box")
+position = Vector3(0.57000, 9.01000, 6.28500)
+
+[node name="COL_Furnished_L2_BathFrontWall" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("109_box")
+position = Vector3(-0.63500, 7.92500, 5.51000)
+
+[node name="COL_Furnished_L2_BathRearWall" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("110_box")
+position = Vector3(-0.63500, 7.92500, 7.20000)
+
+[node name="COL_Furnished_L2_Sofa" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("111_box")
+position = Vector3(-1.31000, 6.89000, 1.45000)
+
+[node name="COL_Furnished_L2_CoffeeTable" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("112_box")
+position = Vector3(-0.33000, 6.63000, 1.47000)
+
+[node name="COL_Furnished_L2_TVConsole" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("113_box")
+position = Vector3(1.57000, 6.70000, 1.37000)
+
+[node name="COL_Furnished_L2_Kitchen" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("114_box")
+position = Vector3(-0.85000, 6.86000, 3.10000)
+
+[node name="COL_Furnished_L2_Fridge" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("115_box")
+position = Vector3(0.19000, 7.28000, 3.08000)
+
+[node name="COL_Furnished_L2_Bed" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("116_box")
+position = Vector3(-1.09000, 6.77000, 4.47000)
+
+[node name="COL_Furnished_L2_Wardrobe" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("117_box")
+position = Vector3(0.10000, 7.52000, 3.78000)
+
+[node name="COL_Furnished_L2_Shower" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("118_box")
+position = Vector3(-1.32000, 6.48000, 6.80000)
+
+[node name="COL_Furnished_L2_Toilet" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("119_box")
+position = Vector3(-1.20000, 6.70000, 5.88000)
+
+[node name="COL_Furnished_L2_Vanity" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("120_box")
+position = Vector3(-0.13000, 6.79000, 6.93000)
+
+[node name="COL_StairRise_L0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("121_box")
+position = Vector3(-1.00000, 0.72000, 10.05000)
+rotation = Vector3(-0.5191461, 0.0, 0.0)
+
+[node name="COL_StairReturn_L0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("122_box")
+position = Vector3(1.00000, 2.32000, 10.05000)
+rotation = Vector3(0.5191461, 0.0, 0.0)
+
+[node name="COL_MidLanding_L0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("123_box")
+position = Vector3(0.00000, 1.51000, 12.24000)
+
+[node name="COL_UpperLanding_L0" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("124_box")
+position = Vector3(0.00000, 3.11000, 8.23000)
+
+[node name="COL_StairRise_L1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("125_box")
+position = Vector3(-1.00000, 3.92000, 10.05000)
+rotation = Vector3(-0.5191461, 0.0, 0.0)
+
+[node name="COL_StairReturn_L1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("126_box")
+position = Vector3(1.00000, 5.52000, 10.05000)
+rotation = Vector3(0.5191461, 0.0, 0.0)
+
+[node name="COL_MidLanding_L1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("127_box")
+position = Vector3(0.00000, 4.71000, 12.24000)
+
+[node name="COL_UpperLanding_L1" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("128_box")
+position = Vector3(0.00000, 6.31000, 8.23000)
+
+[node name="COL_EntryPaving" type="CollisionShape3D" parent="COL_Structure"]
+shape = SubResource("129_box")
+position = Vector3(0.00000, -0.03500, -1.70000)
+
+[node name="HINGE_Lobby" type="Node3D" parent="."]
+position = Vector3(-0.615, 0, -0.07)
+start_open = true
+open_degrees = 95.0
+
+[node name="VIS_Door_Leaf_Lobby" parent="HINGE_Lobby" type="Node3D"]
+
+[node name="COL_DoorBody_Lobby" type="StaticBody3D" parent="HINGE_Lobby"]
+
+[node name="COL_DoorLeaf_Lobby" type="CollisionShape3D" parent="HINGE_Lobby/COL_DoorBody_Lobby"]
+position = Vector3(0.585, 1.145, 0.0)
+shape = SubResource("1_door")
+
+[node name="HINGE_Unit_L1" type="Node3D" parent="."]
+position = Vector3(0.48, 3.2, 7.43)
+start_open = true
+open_degrees = 95.0
+
+[node name="VIS_Door_Leaf_Unit_L1" parent="HINGE_Unit_L1" type="Node3D"]
+
+[node name="COL_DoorBody_Unit_L1" type="StaticBody3D" parent="HINGE_Unit_L1"]
+
+[node name="COL_DoorLeaf_Unit_L1" type="CollisionShape3D" parent="HINGE_Unit_L1/COL_DoorBody_Unit_L1"]
+position = Vector3(0.585, 1.145, 0.0)
+shape = SubResource("1_door")
+
+[node name="HINGE_Unit_L2" type="Node3D" parent="."]
+position = Vector3(0.48, 6.4, 7.43)
+start_open = true
+open_degrees = 95.0
+
+[node name="VIS_Door_Leaf_Unit_L2" parent="HINGE_Unit_L2" type="Node3D"]
+
+[node name="COL_DoorBody_Unit_L2" type="StaticBody3D" parent="HINGE_Unit_L2"]
+
+[node name="COL_DoorLeaf_Unit_L2" type="CollisionShape3D" parent="HINGE_Unit_L2/COL_DoorBody_Unit_L2"]
+position = Vector3(0.585, 1.145, 0.0)
+shape = SubResource("1_door")
+
+[node name="HINGE_Fire_Ground" type="Node3D" parent="."]
+position = Vector3(-1.6, 0, 8.17)
+start_open = true
+open_degrees = 95.0
+
+[node name="VIS_Door_Leaf_Fire_Ground" parent="HINGE_Fire_Ground" type="Node3D"]
+
+[node name="COL_DoorBody_Fire_Ground" type="StaticBody3D" parent="HINGE_Fire_Ground"]
+
+[node name="COL_DoorLeaf_Fire_Ground" type="CollisionShape3D" parent="HINGE_Fire_Ground/COL_DoorBody_Fire_Ground"]
+position = Vector3(0.585, 1.145, 0.0)
+shape = SubResource("1_door")
+
+[node name="HINGE_Fire_L1" type="Node3D" parent="."]
+position = Vector3(0.4, 3.2, 8.17)
+start_open = true
+open_degrees = 95.0
+
+[node name="VIS_Door_Leaf_Fire_L1" parent="HINGE_Fire_L1" type="Node3D"]
+
+[node name="COL_DoorBody_Fire_L1" type="StaticBody3D" parent="HINGE_Fire_L1"]
+
+[node name="COL_DoorLeaf_Fire_L1" type="CollisionShape3D" parent="HINGE_Fire_L1/COL_DoorBody_Fire_L1"]
+position = Vector3(0.585, 1.145, 0.0)
+shape = SubResource("1_door")
+
+[node name="SOCKET_Ground" type="Marker3D" parent="."]
+position = Vector3(0, 0, 0)
+
+[node name="SOCKET_Frontage" type="Marker3D" parent="."]
+position = Vector3(0, 0, -1.2)
+
+[node name="SOCKET_StairEntry" type="Marker3D" parent="."]
+position = Vector3(-1.0, 0, 8.65)
+
+[node name="SOCKET_MidLanding_L0" type="Marker3D" parent="."]
+position = Vector3(0, 1.6, 12.24)
+
+[node name="SOCKET_Level1" type="Marker3D" parent="."]
+position = Vector3(1.0, 3.2, 8.23)
+
+[node name="SOCKET_MidLanding_L1" type="Marker3D" parent="."]
+position = Vector3(0, 4.8, 12.24)
+
+[node name="SOCKET_Level2" type="Marker3D" parent="."]
+position = Vector3(1.0, 6.4, 8.23)
+
+[node name="SOCKET_Unit_L1" type="Marker3D" parent="."]
+position = Vector3(1.06, 3.2, 7.46)
+
+[node name="SOCKET_Unit_L2" type="Marker3D" parent="."]
+position = Vector3(1.06, 6.4, 7.46)
+
+[node name="SOCKET_Roof" type="Marker3D" parent="."]
+position = Vector3(0, 9.6, 8.2)
+
